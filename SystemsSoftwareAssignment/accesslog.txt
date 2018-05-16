@@ -1,0 +1,603 @@
+----
+time->Sun Mar 11 13:38:03 2018
+type=PROCTITLE msg=audit(1520775483.571:101): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1520775483.571:101): item=0 name="." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775483.571:101):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775483.571:101): arch=c000003e syscall=2 success=yes exit=3 a0=1589590 a1=90800 a2=2 a3=502 items=1 ppid=7228 pid=8520 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts4 ses=4294967295 comm="ls" exe="/bin/ls" key=(null)
+----
+time->Sun Mar 11 13:38:19 2018
+type=USER_CMD msg=audit(1520775499.851:104): pid=8522 uid=1000 auid=4294967295 ses=4294967295 msg='cwd="/assignment/intra" cmd=67656469742074657374322E747874 terminal=pts/4 res=success'
+----
+time->Sun Mar 11 13:38:22 2018
+type=PROCTITLE msg=audit(1520775502.575:107): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775502.575:107): item=0 name="/assignment/intra/test2.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775502.575:107):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775502.575:107): arch=c000003e syscall=2 success=yes exit=15 a0=1289340 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=8522 pid=8536 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:38:22 2018
+type=PROCTITLE msg=audit(1520775502.719:108): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775502.719:108): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775502.719:108):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775502.719:108): arch=c000003e syscall=2 success=yes exit=16 a0=7fe450002740 a1=90800 a2=12 a3=502 items=1 ppid=8522 pid=8536 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:38:42 2018
+type=PROCTITLE msg=audit(1520775522.871:110): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775522.871:110): item=1 name="/assignment/intra/test2.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1520775522.871:110): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1520775522.871:110):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775522.871:110): arch=c000003e syscall=2 success=yes exit=15 a0=1289340 a1=20041 a2=1b6 a3=9e items=2 ppid=8522 pid=8538 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:38:42 2018
+type=PROCTITLE msg=audit(1520775522.871:111): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775522.871:111): item=1 name="/assignment/intra/.goutputstream-XEBUFZ" inode=791671 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1520775522.871:111): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1520775522.871:111):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775522.871:111): arch=c000003e syscall=2 success=yes exit=16 a0=7fe450004fa0 a1=c1 a2=1b6 a3=ffffffffff7ff000 items=2 ppid=8522 pid=8538 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:38:42 2018
+type=PROCTITLE msg=audit(1520775522.867:109): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775522.867:109): item=1 name="/assignment/intra/test2.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1520775522.867:109): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1520775522.867:109):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775522.867:109): arch=c000003e syscall=2 success=no exit=-17 a0=1289340 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=8522 pid=8538 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:38:42 2018
+type=PROCTITLE msg=audit(1520775522.903:114): proctitle=67656469740074657374322E747874
+type=PATH msg=audit(1520775522.903:114): item=4 name="/assignment/intra/test2.txt" inode=791671 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1520775522.903:114): item=3 name="/assignment/intra/test2.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1520775522.903:114): item=2 name="/assignment/intra/.goutputstream-XEBUFZ" inode=791671 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1520775522.903:114): item=1 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1520775522.903:114): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1520775522.903:114):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775522.903:114): arch=c000003e syscall=82 success=yes exit=0 a0=7fe450004fa0 a1=7fe450001700 a2=0 a3=640 items=5 ppid=8522 pid=8538 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:40:15 2018
+type=USER_CMD msg=audit(1520775615.220:118): pid=8545 uid=1000 auid=4294967295 ses=4294967295 msg='cwd="/assignment/intra" cmd=6175736561726368202D66202F61737369676E6D656E742F696E7472612F terminal=pts/4 res=success'
+----
+time->Sun Mar 11 13:40:15 2018
+type=PROCTITLE msg=audit(1520775615.220:117): proctitle="bash"
+type=PATH msg=audit(1520775615.220:117): item=1 name="accesslog.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1520775615.220:117): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1520775615.220:117):  cwd="/assignment/intra"
+type=SYSCALL msg=audit(1520775615.220:117): arch=c000003e syscall=2 success=yes exit=3 a0=10eb048 a1=241 a2=1b6 a3=7ffc13fb69b8 items=2 ppid=7228 pid=8545 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts4 ses=4294967295 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Sun Mar 11 13:40:31 2018
+type=PROCTITLE msg=audit(1520775631.120:123): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1520775631.120:123): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775631.120:123):  cwd="/home/keith"
+type=SYSCALL msg=audit(1520775631.120:123): arch=c000003e syscall=2 success=yes exit=26 a0=7f87f0008de0 a1=90800 a2=12 a3=7f87f0008dd0 items=1 ppid=5126 pid=8548 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 11 13:40:34 2018
+type=PROCTITLE msg=audit(1520775634.892:125): proctitle=6765646974002F61737369676E6D656E742F696E7472612F6163636573736C6F672E747874
+type=PATH msg=audit(1520775634.892:125): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775634.892:125):  cwd="/home/keith"
+type=SYSCALL msg=audit(1520775634.892:125): arch=c000003e syscall=2 success=yes exit=18 a0=7f7ee40012b0 a1=90800 a2=12 a3=502 items=1 ppid=4897 pid=8557 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sun Mar 11 13:40:34 2018
+type=PROCTITLE msg=audit(1520775634.876:124): proctitle=6765646974002F61737369676E6D656E742F696E7472612F6163636573736C6F672E747874
+type=PATH msg=audit(1520775634.876:124): item=0 name="/assignment/intra/accesslog.txt" inode=791670 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1520775634.876:124):  cwd="/home/keith"
+type=SYSCALL msg=audit(1520775634.876:124): arch=c000003e syscall=2 success=yes exit=17 a0=22d10e0 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=4897 pid=8557 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 16 21:35:54 2018
+type=PROCTITLE msg=audit(1521236154.112:218): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521236154.112:218): item=3 name="/home/keith/.local/share/Trash/files/testforchanges" inode=796490 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521236154.112:218): item=2 name="/assignment/intra/testforchanges" inode=796490 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521236154.112:218): item=1 name="/home/keith/.local/share/Trash/files/" inode=555826 dev=08:01 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521236154.112:218): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521236154.112:218):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521236154.112:218): arch=c000003e syscall=82 success=yes exit=0 a0=e799e0 a1=7f3c98007860 a2=0 a3=20 items=4 ppid=2721 pid=31027 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 16 21:35:58 2018
+type=PROCTITLE msg=audit(1521236158.569:219): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521236158.569:219): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521236158.569:219):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521236158.569:219): arch=c000003e syscall=2 success=yes exit=27 a0=7f3c980125a0 a1=90800 a2=12 a3=7f3c98012590 items=1 ppid=2721 pid=31027 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 15:51:03 2018
+type=PROCTITLE msg=audit(1521388263.376:186): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521388263.376:186): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521388263.376:186):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521388263.376:186): arch=c000003e syscall=2 success=yes exit=26 a0=7f42dc002af0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=4907 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 15:51:06 2018
+type=PROCTITLE msg=audit(1521388266.960:187): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521388266.960:187): item=3 name="/home/keith/.local/share/Trash/files/newdocforausearch" inode=796527 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521388266.960:187): item=2 name="/assignment/intra/newdocforausearch" inode=796527 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521388266.960:187): item=1 name="/home/keith/.local/share/Trash/files/" inode=555826 dev=08:01 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521388266.960:187): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521388266.960:187):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521388266.960:187): arch=c000003e syscall=82 success=yes exit=0 a0=2ce8170 a1=7f42dc014b80 a2=0 a3=20 items=4 ppid=1715 pid=4907 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 15:51:11 2018
+type=PROCTITLE msg=audit(1521388271.885:188): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521388271.885:188): item=1 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521388271.885:188): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521388271.885:188):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521388271.885:188): arch=c000003e syscall=2 success=yes exit=26 a0=7f42dc01a830 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1715 pid=4907 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 15:51:14 2018
+type=PROCTITLE msg=audit(1521388274.669:189): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521388274.669:189): item=3 name="/assignment/intra/newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521388274.669:189): item=2 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521388274.669:189): item=1 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521388274.669:189): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521388274.669:189):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521388274.669:189): arch=c000003e syscall=82 success=yes exit=0 a0=2d1f420 a1=7f42dc002a70 a2=fffffffffffffeb0 a3=20 items=4 ppid=1715 pid=4907 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 16:15:11 2018
+type=PROCTITLE msg=audit(1521389711.201:190): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521389711.201:190): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389711.201:190):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521389711.201:190): arch=c000003e syscall=2 success=yes exit=27 a0=7f42dc014430 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=9350 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 16:15:13 2018
+type=PROCTITLE msg=audit(1521389713.881:191): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521389713.881:191): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389713.881:191):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521389713.881:191): arch=c000003e syscall=2 success=yes exit=27 a0=7f42cc005f90 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=9353 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 16:15:19 2018
+type=PROCTITLE msg=audit(1521389719.817:192): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521389719.817:192): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389719.817:192):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521389719.817:192): arch=c000003e syscall=2 success=yes exit=26 a0=7f42cc000bc0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=9353 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:06:58 2018
+type=PROCTITLE msg=audit(1521403618.516:341): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403618.516:341): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403618.516:341):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403618.516:341): arch=c000003e syscall=2 success=yes exit=27 a0=7f42cc005eb0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=20820 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:06:56 2018
+type=PROCTITLE msg=audit(1521403616.540:340): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403616.540:340): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403616.540:340):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403616.540:340): arch=c000003e syscall=2 success=yes exit=27 a0=7f42f400c3e0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=20969 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:11 2018
+type=PROCTITLE msg=audit(1521403691.197:344): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403691.197:344): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403691.197:344):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403691.197:344): arch=c000003e syscall=2 success=yes exit=26 a0=7f42cc015260 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=20820 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:14 2018
+type=PROCTITLE msg=audit(1521403694.485:345): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403694.485:345): item=1 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420466F6C646572 inode=796533 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521403694.485:345): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521403694.485:345):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403694.485:345): arch=c000003e syscall=83 success=yes exit=0 a0=7f42cc002910 a1=1ff a2=7f42e2bdeb20 a3=aaaaaaaaaaaaaaab items=2 ppid=1715 pid=20820 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:14 2018
+type=PROCTITLE msg=audit(1521403694.601:346): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403694.601:346): item=0 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420466F6C646572 inode=796533 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403694.601:346):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403694.601:346): arch=c000003e syscall=2 success=yes exit=28 a0=7f42d4003110 a1=90800 a2=22 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21136 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:22 2018
+type=PROCTITLE msg=audit(1521403702.969:347): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403702.969:347): item=3 name=2F686F6D652F6B656974682F2E6C6F63616C2F73686172652F54726173682F66696C65732F556E7469746C656420466F6C6465722E32 inode=796533 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521403702.969:347): item=2 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420466F6C646572 inode=796533 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521403702.969:347): item=1 name="/home/keith/.local/share/Trash/files/" inode=555826 dev=08:01 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521403702.969:347): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521403702.969:347):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403702.969:347): arch=c000003e syscall=82 success=yes exit=0 a0=2dd2650 a1=7f42f4008d40 a2=7f42f4001380 a3=20 items=4 ppid=1715 pid=21137 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:26 2018
+type=PROCTITLE msg=audit(1521403706.293:348): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403706.293:348): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403706.293:348):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403706.293:348): arch=c000003e syscall=2 success=yes exit=27 a0=7f42f4008d40 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21137 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:48 2018
+type=PROCTITLE msg=audit(1521403728.317:350): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403728.317:350): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403728.317:350):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403728.317:350): arch=c000003e syscall=2 success=yes exit=26 a0=7f42e4002d30 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:08:46 2018
+type=PROCTITLE msg=audit(1521403726.649:349): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403726.649:349): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403726.649:349):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403726.649:349): arch=c000003e syscall=2 success=yes exit=27 a0=7f42d400f640 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21208 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:09:05 2018
+type=PROCTITLE msg=audit(1521403745.617:351): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403745.617:351): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403745.617:351):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403745.617:351): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005b20 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:09:32 2018
+type=PROCTITLE msg=audit(1521403772.365:352): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403772.365:352): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403772.365:352):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403772.365:352): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005eb0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:09:36 2018
+type=PROCTITLE msg=audit(1521403776.849:353): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403776.849:353): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403776.849:353):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403776.849:353): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e40023c0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:09:59 2018
+type=PROCTITLE msg=audit(1521403799.741:354): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403799.741:354): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403799.741:354):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403799.741:354): arch=c000003e syscall=2 success=yes exit=29 a0=7f42dc015840 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21372 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:10:04 2018
+type=PROCTITLE msg=audit(1521403804.113:355): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521403804.113:355): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521403804.113:355):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521403804.113:355): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4002270 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.343:378): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.343:378): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.343:378):  cwd="/"
+type=SYSCALL msg=audit(1521404022.343:378): arch=c000003e syscall=2 success=yes exit=2 a0=7fff563168a4 a1=90800 a2=c1474 a3=502 items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.347:379): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.347:379): item=0 name="/assignment/intra/./newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.347:379):  cwd="/"
+type=SYSCALL msg=audit(1521404022.347:379): arch=c000003e syscall=2 success=yes exit=2 a0=2346930 a1=20000 a2=0 a3=69d items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.347:383): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.347:383): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.347:383):  cwd="/"
+type=SYSCALL msg=audit(1521404022.347:383): arch=c000003e syscall=195 success=yes exit=0 a0=7fff563168a4 a1=0 a2=0 a3=405770 items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.347:384): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.347:384): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.347:384):  cwd="/"
+type=SYSCALL msg=audit(1521404022.347:384): arch=c000003e syscall=195 success=yes exit=0 a0=7fff563168a4 a1=7fff56315940 a2=0 a3=0 items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.347:385): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.347:385): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.347:385):  cwd="/"
+type=SYSCALL msg=audit(1521404022.347:385): arch=c000003e syscall=191 success=no exit=-61 a0=7fff563168a4 a1=7f1cb1b5bb8f a2=7fff56315800 a3=84 items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:42 2018
+type=PROCTITLE msg=audit(1521404022.347:386): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404022.347:386): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404022.347:386):  cwd="/"
+type=SYSCALL msg=audit(1521404022.347:386): arch=c000003e syscall=191 success=no exit=-61 a0=7fff563168a4 a1=7f1cb1b5bb60 a2=7fff56315800 a3=84 items=1 ppid=21854 pid=21855 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:13:57 2018
+type=PROCTITLE msg=audit(1521404037.431:388): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404037.431:388): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404037.431:388):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404037.431:388): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4007830 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:13:56 2018
+type=PROCTITLE msg=audit(1521404036.207:387): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404036.207:387): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404036.207:387):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404036.207:387): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e40014a0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:390): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:390): item=0 name="/assignment/intra/./newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:390):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:390): arch=c000003e syscall=2 success=yes exit=2 a0=15ac930 a1=20000 a2=0 a3=69d items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:389): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:389): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:389):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:389): arch=c000003e syscall=2 success=yes exit=2 a0=7ffc7f3358a4 a1=90800 a2=c1474 a3=502 items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:394): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:394): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:394):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:394): arch=c000003e syscall=195 success=yes exit=0 a0=7ffc7f3358a4 a1=0 a2=0 a3=405770 items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:395): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:395): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:395):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:395): arch=c000003e syscall=195 success=yes exit=0 a0=7ffc7f3358a4 a1=7ffc7f333660 a2=0 a3=0 items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:396): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:396): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:396):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:396): arch=c000003e syscall=191 success=no exit=-61 a0=7ffc7f3358a4 a1=7fe61965eb8f a2=7ffc7f333520 a3=84 items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:01 2018
+type=PROCTITLE msg=audit(1521404041.487:397): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404041.487:397): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404041.487:397):  cwd="/"
+type=SYSCALL msg=audit(1521404041.487:397): arch=c000003e syscall=191 success=no exit=-61 a0=7ffc7f3358a4 a1=7fe61965eb60 a2=7ffc7f333520 a3=84 items=1 ppid=21897 pid=21898 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:14:04 2018
+type=PROCTITLE msg=audit(1521404044.575:398): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404044.575:398): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404044.575:398):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404044.575:398): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005aa0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:14:35 2018
+type=PROCTITLE msg=audit(1521404075.868:399): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404075.868:399): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404075.868:399):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404075.868:399): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4000970 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:14:36 2018
+type=PROCTITLE msg=audit(1521404076.780:400): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404076.780:400): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404076.780:400):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404076.780:400): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e40079b0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.100:402): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.100:402): item=0 name="/assignment/intra/./newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.100:402):  cwd="/"
+type=SYSCALL msg=audit(1521404112.100:402): arch=c000003e syscall=2 success=yes exit=2 a0=15fc930 a1=20000 a2=0 a3=69d items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.100:401): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.100:401): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.100:401):  cwd="/"
+type=SYSCALL msg=audit(1521404112.100:401): arch=c000003e syscall=2 success=yes exit=2 a0=7ffdc65928a4 a1=90800 a2=c1474 a3=502 items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.104:406): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.104:406): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.104:406):  cwd="/"
+type=SYSCALL msg=audit(1521404112.104:406): arch=c000003e syscall=195 success=yes exit=0 a0=7ffdc65928a4 a1=0 a2=0 a3=405770 items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.104:407): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.104:407): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.104:407):  cwd="/"
+type=SYSCALL msg=audit(1521404112.104:407): arch=c000003e syscall=195 success=yes exit=0 a0=7ffdc65928a4 a1=7ffdc658fec0 a2=0 a3=0 items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.104:408): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.104:408): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.104:408):  cwd="/"
+type=SYSCALL msg=audit(1521404112.104:408): arch=c000003e syscall=191 success=no exit=-61 a0=7ffdc65928a4 a1=7ff015abeb8f a2=7ffdc658fd80 a3=84 items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:12 2018
+type=PROCTITLE msg=audit(1521404112.104:409): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404112.104:409): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404112.104:409):  cwd="/"
+type=SYSCALL msg=audit(1521404112.104:409): arch=c000003e syscall=191 success=no exit=-61 a0=7ffdc65928a4 a1=7ff015abeb60 a2=7ffdc658fd80 a3=84 items=1 ppid=22044 pid=22045 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:15:23 2018
+type=PROCTITLE msg=audit(1521404123.008:410): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404123.008:410): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404123.008:410):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404123.008:410): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4006f20 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:15:27 2018
+type=PROCTITLE msg=audit(1521404127.460:411): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404127.460:411): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404127.460:411):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404127.460:411): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4002880 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:16:02 2018
+type=PROCTITLE msg=audit(1521404162.828:413): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404162.828:413): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404162.828:413):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404162.828:413): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4007850 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:16:01 2018
+type=PROCTITLE msg=audit(1521404161.852:412): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521404161.852:412): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404161.852:412):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521404161.852:412): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005e40 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=21206 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:415): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:415): item=0 name="/assignment/intra/./newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:415):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:415): arch=c000003e syscall=2 success=yes exit=2 a0=b78930 a1=20000 a2=0 a3=69d items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:414): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:414): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:414):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:414): arch=c000003e syscall=2 success=yes exit=2 a0=7ffdb1a918a4 a1=90800 a2=c1474 a3=502 items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:419): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:419): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:419):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:419): arch=c000003e syscall=195 success=yes exit=0 a0=7ffdb1a918a4 a1=0 a2=0 a3=405770 items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:420): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:420): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:420):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:420): arch=c000003e syscall=195 success=yes exit=0 a0=7ffdb1a918a4 a1=7ffdb1a90530 a2=0 a3=0 items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:421): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:421): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:421):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:421): arch=c000003e syscall=191 success=no exit=-61 a0=7ffdb1a918a4 a1=7f1a2ea2fb8f a2=7ffdb1a903f0 a3=84 items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 20:16:09 2018
+type=PROCTITLE msg=audit(1521404169.560:422): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521404169.560:422): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521404169.560:422):  cwd="/"
+type=SYSCALL msg=audit(1521404169.560:422): arch=c000003e syscall=191 success=no exit=-61 a0=7ffdb1a918a4 a1=7f1a2ea2fb60 a2=7ffdb1a903f0 a3=84 items=1 ppid=22164 pid=22165 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:01:21 2018
+type=PROCTITLE msg=audit(1521406881.196:430): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521406881.196:430): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521406881.196:430):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521406881.196:430): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4006fb0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27658 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:01:30 2018
+type=PROCTITLE msg=audit(1521406890.548:431): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521406890.548:431): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521406890.548:431):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521406890.548:431): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005f60 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27658 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:07:40 2018
+type=PROCTITLE msg=audit(1521407260.462:444): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407260.462:444): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407260.462:444):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407260.462:444): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4022170 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:07:45 2018
+type=PROCTITLE msg=audit(1521407265.658:445): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407265.658:445): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407265.658:445):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407265.658:445): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005180 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:07:49 2018
+type=PROCTITLE msg=audit(1521407269.050:446): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407269.050:446): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407269.050:446):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407269.050:446): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4007fb0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:447): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:447): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:447):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:447): arch=c000003e syscall=2 success=yes exit=1 a0=7fffb1b048a4 a1=90800 a2=c1474 a3=502 items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:448): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:448): item=0 name="/assignment/intra/./newdoc" inode=796529 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:448):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:448): arch=c000003e syscall=2 success=yes exit=1 a0=2382930 a1=20000 a2=0 a3=69d items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:452): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:452): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:452):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:452): arch=c000003e syscall=195 success=yes exit=0 a0=7fffb1b048a4 a1=0 a2=0 a3=405770 items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:453): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:453): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:453):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:453): arch=c000003e syscall=195 success=yes exit=0 a0=7fffb1b048a4 a1=7fffb1b03b80 a2=0 a3=0 items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:454): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:454): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:454):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:454): arch=c000003e syscall=191 success=no exit=-61 a0=7fffb1b048a4 a1=7f43da008b8f a2=7fffb1b03a40 a3=84 items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:15:05 2018
+type=PROCTITLE msg=audit(1521407705.212:455): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521407705.212:455): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407705.212:455):  cwd="/"
+type=SYSCALL msg=audit(1521407705.212:455): arch=c000003e syscall=191 success=no exit=-61 a0=7fffb1b048a4 a1=7f43da008b60 a2=7fffb1b03a40 a3=84 items=1 ppid=29266 pid=29267 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:17:41 2018
+type=PROCTITLE msg=audit(1521407861.900:462): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407861.900:462): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407861.900:462):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407861.900:462): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005ae0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:18:43 2018
+type=PROCTITLE msg=audit(1521407923.865:464): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407923.865:464): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407923.865:464):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407923.865:464): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005bb0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:18:47 2018
+type=PROCTITLE msg=audit(1521407927.537:465): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521407927.537:465): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521407927.537:465):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521407927.537:465): arch=c000003e syscall=2 success=yes exit=29 a0=7f42e4005630 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:31:29 2018
+type=PROCTITLE msg=audit(1521408689.885:474): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408689.885:474): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521408689.885:474):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408689.885:474): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e40078d0 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=27919 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:32:03 2018
+type=PROCTITLE msg=audit(1521408723.557:475): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408723.557:475): item=0 name="/assignment/intra" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521408723.557:475):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408723.557:475): arch=c000003e syscall=2 success=yes exit=28 a0=7f42cc015190 a1=90800 a2=12 a3=aaaaaaaaaaaaaaab items=1 ppid=1715 pid=31340 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:32:12 2018
+type=PROCTITLE msg=audit(1521408732.973:476): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408732.973:476): item=1 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796545 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521408732.973:476): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521408732.973:476):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408732.973:476): arch=c000003e syscall=2 success=yes exit=28 a0=7f42cc000f20 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1715 pid=31340 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:34:47 2018
+type=PROCTITLE msg=audit(1521408887.690:486): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408887.690:486): item=3 name="/home/keith/.local/share/Trash/files/testt" inode=796545 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521408887.690:486): item=2 name="/assignment/intra/testt" inode=796545 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521408887.690:486): item=1 name="/home/keith/.local/share/Trash/files/" inode=555826 dev=08:01 mode=040700 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521408887.690:486): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521408887.690:486):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408887.690:486): arch=c000003e syscall=82 success=yes exit=0 a0=2817410 a1=7f42e40017c0 a2=7f42e4002ef0 a3=20 items=4 ppid=1715 pid=31708 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:34:46 2018
+type=PROCTITLE msg=audit(1521408886.258:485): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408886.258:485): item=3 name="/assignment/intra/testt" inode=796545 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521408886.258:485): item=2 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796545 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521408886.258:485): item=1 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521408886.258:485): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521408886.258:485):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408886.258:485): arch=c000003e syscall=82 success=yes exit=0 a0=2af4b70 a1=7f42cc015760 a2=fffffffffffffeb0 a3=20 items=4 ppid=1715 pid=31707 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:35:09 2018
+type=PROCTITLE msg=audit(1521408909.986:487): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408909.986:487): item=1 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796546 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521408909.986:487): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521408909.986:487):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408909.986:487): arch=c000003e syscall=2 success=yes exit=28 a0=7f42e4002870 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1715 pid=31758 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:35:13 2018
+type=PROCTITLE msg=audit(1521408913.590:488): proctitle=6E617574696C7573002D6E
+type=PATH msg=audit(1521408913.590:488): item=3 name="/assignment/intra/testter" inode=796546 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521408913.590:488): item=2 name=2F61737369676E6D656E742F696E7472612F556E7469746C656420446F63756D656E74 inode=796546 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521408913.590:488): item=1 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521408913.590:488): item=0 name="/assignment/intra/" inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521408913.590:488):  cwd="/home/keith"
+type=SYSCALL msg=audit(1521408913.590:488): arch=c000003e syscall=82 success=yes exit=0 a0=3219400 a1=7f42cc005dc0 a2=fffffffffffffeb0 a3=20 items=4 ppid=1715 pid=31767 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:506): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:506): item=0 name="/assignment/intra/./testter" inode=796546 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:506):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:506): arch=c000003e syscall=2 success=yes exit=2 a0=1157930 a1=20000 a2=0 a3=69d items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:505): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:505): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:505):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:505): arch=c000003e syscall=2 success=yes exit=2 a0=7ffd1f66e8a4 a1=90800 a2=c1474 a3=502 items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:510): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:510): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:510):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:510): arch=c000003e syscall=195 success=yes exit=0 a0=7ffd1f66e8a4 a1=0 a2=0 a3=405770 items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:511): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:511): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:511):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:511): arch=c000003e syscall=195 success=yes exit=0 a0=7ffd1f66e8a4 a1=7ffd1f66c810 a2=0 a3=0 items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:512): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:512): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:512):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:512): arch=c000003e syscall=191 success=no exit=-61 a0=7ffd1f66e8a4 a1=7f33d1796b8f a2=7ffd1f66c6d0 a3=84 items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 21:47:11 2018
+type=PROCTITLE msg=audit(1521409631.334:513): proctitle=6370002D75002D61002F61737369676E6D656E742F696E7472612F2E002F61737369676E6D656E742F6C697665
+type=PATH msg=audit(1521409631.334:513): item=0 name="/assignment/intra/." inode=791668 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521409631.334:513):  cwd="/"
+type=SYSCALL msg=audit(1521409631.334:513): arch=c000003e syscall=191 success=no exit=-61 a0=7ffd1f66e8a4 a1=7f33d1796b60 a2=7ffd1f66c6d0 a3=84 items=1 ppid=825 pid=826 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cp" exe="/bin/cp" key=(null)

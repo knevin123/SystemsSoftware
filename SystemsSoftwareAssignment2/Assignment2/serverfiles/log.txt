@@ -1,0 +1,57 @@
+
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/test.txt
+Date and Time:
+2018-04-29 20:32:27
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/test.txt
+Date and Time:
+2018-04-29 20:35:00
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/Sales/test.txt
+Date and Time:
+2018-04-29 20:44:00
+-----------------------------
+Username:
+no
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/Offers/test.txt
+Date and Time:
+2018-04-29 20:50:44
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/test.txt
+Date and Time:
+2018-04-29 20:55:03
+-----------------------------
+Username:
+no
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/test.txt
+Date and Time:
+2018-04-29 21:01:53
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/Sales/test.txt
+Date and Time:
+2018-04-29 21:03:47
+-----------------------------
+Username:
+user
+File Changed:
+/home/keith/Desktop/Assignment2/serverfiles/Marketing/test.txt
+Date and Time:
+2018-04-29 21:06:40
